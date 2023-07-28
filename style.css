@@ -1,0 +1,112 @@
+/* Import google font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Open+Sans&family=Poppins:ital,wght@0,500;1,500&family=Raleway:ital,wght@0,400;0,500;1,300&family=Roboto+Slab:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.heading{
+    margin-bottom: 4px;
+    color: rgb(18, 18, 115);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(bg.jpg);
+}
+.container{
+    width: 900px;
+    background: #b7c8d4;
+    border-radius: 10px;
+    padding: 30px;
+}
+.wrapper{
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid #000000;
+}
+.text-input .to-text{
+    border-left: 2px solid rgb(82, 128, 133);
+    background: #dce9ec;
+    /* opacity:  calc(0.6); */
+    margin-left: 2px;
+    /* color: black; */
+}
+.text-input textarea{
+    height: 450px;
+    width: 100%;
+    border:none ;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    resize: none;
+
+}
+.controls,li,.icons,.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.controls{
+    padding: 12px 15px;
+    /* text-decoration: none; */
+    list-style: none;
+}
+.controls .icons{
+    width: 38px;
+}
+.controls .icons i{
+    width: 50px;
+    color: #9f9f9f;
+    font-size: 12px;
+    cursor: pointer;
+    justify-content: center;
+}
+.controls .icons i:hover{
+    color: blue;
+}
+.controls .row select{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+}
+.controls .row.from .icons{
+    border-right: 1px solid rgb(233, 233, 233) ;
+    /* padding-right: 12px; */
+}
+.container button{
+    width: 100%;
+    padding: 12px;
+    margin-top: 14px;
+    border: none;
+    outline: none;
+    background: rgb(219, 219, 226);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #000000;
+}
+.container button:hover{
+    /* background: #ddd; */
+    background: rgb(44, 44, 162);
+    color: #ddd;
+}
+
+.container .exchange{
+    color: grey;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container .exchange:hover{
+    color:blue
+}
